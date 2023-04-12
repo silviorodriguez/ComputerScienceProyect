@@ -1,0 +1,9 @@
+body {
+    background-image: url("https://images.pexels.com/photos/2767814/pexels-photo-2767814.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body h1 {
+    color: white;
+}

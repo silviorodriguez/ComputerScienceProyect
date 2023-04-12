@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style3.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,56 +19,57 @@
           <h5 class="card-title">Bienvenido Estudiante</h5>
           <p class="card-text">Debes ingresar datos completos, todos los datos son requeridos</p>
         </div>
+
+
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="No. Documento" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputDocumento" type="text" class="form-control" placeholder="No. Documento" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Nombres" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputNombre" type="text" class="form-control" placeholder="Nombres" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
 
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Apellidos" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputApellido" type="text" class="form-control" placeholder="Apellidos" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Edad" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputEdad" type="text" class="form-control" placeholder="Edad" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Materias" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputMaterias" type="text" class="form-control" placeholder="Materias" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Calificacion" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputcalificacion" type="text" class="form-control" placeholder="Calificacion" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Foto" aria-label="Username" aria-describedby="basic-addon1">
+            <input id="inputFoto" type="text" class="form-control" placeholder="Foto" aria-label="Username" aria-describedby="basic-addon1">
           </div></li>
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Profesor" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputProfesor" type="text" class="form-control" placeholder="Profesor" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
           <li class="list-group-item"><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Curso" aria-label="Username" aria-describedby="basic-addon1" required>
+            <input id="inputCurso" type="text" class="form-control" placeholder="Curso" aria-label="Username" aria-describedby="basic-addon1" required>
           </div></li>
 
 
 
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <button onclick="guardarDatos()" type="button" class="btn btn-primary">Guardar</button>
         </div>
       </div>
         
     </center>
-   
+    <script src="main.js"></script>
 </body>
 </html>
